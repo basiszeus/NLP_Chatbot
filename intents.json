@@ -1,0 +1,42 @@
+{"intents" : [
+  {"tag":  "Greetings",
+  "patterns": ["hello","hi","salem alikom","hey","bonjour","bonsoir","greetings","salut","lu","slt"],
+  "responses": ["Hello,What can I do for you ?", "Hi, How can I help you ?", "Greetings, What can I do for you ?" ]
+  },
+  {"tag":  "Goodbye",
+  "patterns": ["bye","take care","later","see you later","have a good day"],
+  "responses": ["Talk to you later !", "Happy to help you !", "Goodbye !" ]
+  },
+  {"tag":  "Name",
+  "patterns": ["what is your name","your name","how should I call you ?","your name please","who are you ?"],
+  "responses": ["You can call me Ahmed, I am your virtual assistant", "Ahmed ! at your service !"]
+  },
+  {"tag":  "Use",
+  "patterns": ["how can i use my glucometer","use of my glucometer","i don't know how to use my glucometer","how to use glucometer to check blood sugar","how to use glucometer strips","how to use glucometer in hospital","how to use glucometer check 3"],
+  "responses": ["We have a video explaining how to use it, you can check it on our Youtube channel or with the following link: https://www.youtube.com/watch?v=THj_ACc3myg&t=5s&ab_channel=LaboratoiresSalem in French and https:// www.youtube.com/watch?v=pNC23lIMuq8&t=92s&ab_channel=LaboratoriesSalem in Arabic", "You can find the video in the following link: https://www.youtube.com/watch?v=THj_ACc3myg&t=5s&ab_channel=LaboratoiresSalem in French and https://www.youtube.com/watch?v=pNC23lIMuq8&t=92s&ab_channel=LaboratoiresSalem in Arabic"]
+  },
+  {"tag":  "Know",
+  "patterns": ["who you are","who is salem laboratory","what is laboratoires SALEM","laboratoires salem"],
+  "responses": ["Laboratoires Salem is a family business born in 1994. It invests in the private pharmaceutical industry in Algeria, the company has several headquarters in Cheraga, Sétif and El Eulma", "We are a national pharmaceutical industry specialized in the production of medicine, food supplements and medical equipment, more information about ours: https://labosalem.dz/notre-histoire/ "]
+  },
+  {"tag":  "Open",
+  "patterns": ["Are you open?","at what time do you open"],
+  "responses": ["We work from Sunday to Thursday from 8 a.m. to 4 p.m., during Ramadan we are open from 9 a.m. to 4 p.m.!", "We're open from 8 a.m. to 4 p.m. from Sunday through Thursday, and from 9 a.m. to 4 p.m. during Ramadan!"]
+  },
+  {"tag":  "Job",
+  "patterns": ["I am looking for an internship","you recruit ?","do you have job offers?","I have a master's degree in chemistry and I am looking for a job","Are you looking for medical representatives?"],
+  "responses": ["You can find all our job offers on our website ! they are available at the following link: https://labosalem.dz/emploi/ ", "All of our employment openings are listed on our website. They may be found at the following link: https://labosalem.dz/emploi/ "]
+  },
+  {"tag":  "Prob",
+  "patterns": ["My glucometer does not work", "I have problems with my glucometer", "My glucometer is faulty", "My glucometer screen does not work", "My glucometer does not read my test strips", "My glucometer is broken"],
+  "responses": ["In case of malfunction you can contact us directly on the following page: https://labosalem.dz/pharmacovigilance/","On the following page, you can contact us directly in the event of a malfunction: https://labosalem.dz/pharmacovigilance/ "]
+  },
+  {"tag":  "Buy",
+  "patterns": ["I would like to buy a glucometer", "where can I find strips", "is your product available?"],
+  "responses": ["Yes, our product is available! you will find it in your nearest pharmacy","Sure, you may purchase our products! It may be found in your neighborhood drugstore."]
+  },
+  {"tag":  "Price",
+  "patterns": ["The price of the strips","The price of the glucometer","The price of Check 3","I would like to know the price of the strips and the glucometer"],
+  "responses": ["Our Check3 glucometer is provided free of charge for diabetics in pharmacies, concerning the strips of 50, they are available at the price of 1500 Dzd, refundable for diabetics with a Chifa card"]
+  }
+  ]}
